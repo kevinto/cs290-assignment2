@@ -1,6 +1,11 @@
-
 table {
 	border: 1px solid #999;
+}
+
+table tfoot td:nth-child(1), table tfoot td:nth-child(2) {
+	background-color: white;
+	font-style: normal;
+	color:black;
 }
 
 td, th {
@@ -31,8 +36,6 @@ tr:nth-child(odd) {
 	background-color: lightblue;
 }
 
-tfoot tr td{
-	background-color: white;
-	color: black;
-	font-style: normal;
+dt:hover + dd {
+	background-color: purple;
 }
