@@ -1,0 +1,38 @@
+
+table {
+	border: 1px solid #999;
+}
+
+td, th {
+	border: 1px solid #999;
+}
+
+th {
+	background-color: white;
+}
+
+td:nth-child(1) {
+	font-style: italic;
+}
+
+td:nth-child(2) {
+	color: red;
+}
+
+td:nth-child(4) {
+	color: blue;
+}
+
+tr:nth-child(even) {
+	background-color: lightgreen;
+}
+
+tr:nth-child(odd) {
+	background-color: lightblue;
+}
+
+tfoot tr td{
+	background-color: white;
+	color: black;
+	font-style: normal;
+}
