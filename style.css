@@ -73,3 +73,13 @@ form fieldset:nth-child(5) input:nth-child(5) {
 	display: block;
 	margin-bottom: 10px;
 }
+
+img {
+	height: 125px;
+	width: 100px;
+	float:left;
+	margin-top: 17px;
+}
+
+p {
+}
