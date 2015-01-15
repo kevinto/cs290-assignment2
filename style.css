@@ -39,3 +39,23 @@ tr:nth-child(odd) {
 dt:hover + dd {
 	background-color: purple;
 }
+
+.outer-content {
+	background-color: pink;
+	width: 75%;
+	margin-top: 20px;
+	position: relative;
+	height: 50px;
+}
+
+.inner-content {
+	text-align: center;
+	background-color: lightblue;
+	width: 75%;
+	position: absolute;
+	top: 30%;
+	bottom: 30%;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
