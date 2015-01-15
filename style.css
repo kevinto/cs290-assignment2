@@ -59,3 +59,17 @@ dt:hover + dd {
 	right: 0;
 	margin: auto;
 }
+
+form > fieldset > fieldset {
+	margin-bottom: 10px;
+}
+
+form fieldset:nth-child(5) label {
+	display: block;
+	margin-bottom: 10px;
+}
+
+form fieldset:nth-child(5) input:nth-child(5) {
+	display: block;
+	margin-bottom: 10px;
+}
